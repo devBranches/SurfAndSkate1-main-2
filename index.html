@@ -1,246 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!--FontAwesome Links-->
-<link rel="stylesheet" href="/css/all.min.css">
-<script defer src="js/all.js"></script>
-<!--Font from google font-->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet"> 
+    <!--FontAwesome Links-->
+    <link rel="stylesheet" href="/css/all.min.css">
+    <script defer src="js/all.js"></script>
+    <!--Font from google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
 
-<!--Favourite Icon-->
-<link rel="shortcut icon" href="./images/icon.ico" type="image/x-icon"/>
+    <!--Favourite Icon-->
+    <link rel="shortcut icon" href="./images/icon.ico" type="image/x-icon" />
 
     <title>Home - Fantasy Stables</title>
- 
-<!--glide.js <link>-->
-<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css"
-/>
-<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css"
->
 
-<!--Animate on Scroll-->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<!--StyleSheet-->
-<link rel="stylesheet" href="styles.css"/>
+    <!--glide.js <link>-->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css" />
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
 
-<style>
-  @media screen and (max-width: 500px) {
-/* applies only if the screen is narrower than 500px */
-  .tabs {
-    padding: 3px 1em
-  }
-}
-    body,html{
-        height: 100%;
-        background-image: url("./images/horsie.jpeg");
-        background-color: lightblue;
-        height: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
+    <!--Animate on Scroll-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--StyleSheet-->
+    <link rel="stylesheet" href="styles.css" />
 
-    }
 
-</style>
+    <style>
+        @media screen and (max-width: 500px) {
+
+            /* applies only if the screen is narrower than 500px */
+            .tabs {
+                padding: 3px 1em
+            }
+        }
+
+        body,
+        html {
+            height: 100%;
+            background-image: url("./images/background-1.jpg");
+            background-color: lightblue;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+    </style>
 
 </head>
+
 <body>
-        <!--header-->
- <header class="header" id="header">
-    <!--Navigation-->
-    <div class="navigation">
-        <div class="container">
-          <nav class="nav"> 
-      <nav class="nav"> 
-          <nav class="nav"> 
-              <div class="nav__hamburger">
-    
-                <i class="fas fa-align-justify"></i>
-    
-              </div>
-             
-              <div class="nav__logo">
-             
-                  <a href="./index.html" class="scroll-link">Fantasy Stables</a>
-                
-              </div>
-    
-              <div class="nav__menu open">
-                  <div class="menu__top">
-                      <span class="nav__category">The Paintfather</span>
-                    <a href="#" class="close__toggle">
-    
-                <!--Menu icon from font awesome-->
-                    
-                <i class="fas fa-times"></i>
-                    </a>
-                  </div>
-                  <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="./index.html" class="nav__link scroll">Home</a>
-                    </li>
-                
-                    <li class="nav__item">
-                        <a href="./productUploads/displayCategory.php" class="nav__link scroll">Gallery</a>
-                    </li>
-                
-                    <li class="nav__item">
-                        <a href="./blog.html" class="nav__link scroll">News Feed</a>
-                    </li>
-                
-                    <li class="nav__item">
-                        <a href="./php/contactForm.php" class="nav__link scroll">Contact</a>
-                    </li>
-                    
-                    <li class="nav__item">
-                        <a href="./about.html" class="nav__link scroll">About</a>
-                    </li>
-                
-                </ul>
-              </div>
-    
-    <!--ICONS-->
-    
-    <div class="nav__icons">
-    
-    <!--Admin icon from font awesome-->
-     <a href=".//productUploads/adminPage.html" class="icon__item">
-        <i class="fas fa-user-lock"></i>
-     </a>
-     <!--Shopping cart icon from font awesome-->
-    <a href="./productUp/index.php" class="icon__item">
-     <i class="fas fa-shopping-cart"></i>
+    <!--header-->
+    <header class="header" id="header">
+        <!--Navigation-->
+        <div class="navigation">
+            <div class="container">
+                <nav class="nav">
+                    <nav class="nav">
+                        <nav class="nav">
+                            <div class="nav__hamburger">
 
-    </a>
-    
-    </div>
-          </nav>
+                                <i class="fas fa-align-justify"></i>
+
+                            </div>
+
+                            <div class="nav__logo">
+
+                                <a href="./index.html" class="scroll-link">Fantasy Stables</a>
+
+                            </div>
+
+                            <div class="nav__menu open">
+                                <div class="menu__top">
+                                    <span class="nav__category">The Paintfather</span>
+                                    <a href="#" class="close__toggle">
+
+                                        <!--Menu icon from font awesome-->
+
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </div>
+                                <ul class="nav__list">
+                                    <li class="nav__item">
+                                        <a href="./index.html" class="nav__link scroll">Home</a>
+                                    </li>
+
+                                    <li class="nav__item">
+                                        <a href="./productUploads/displayCategory.php"
+                                            class="nav__link scroll">Gallery</a>
+                                    </li>
+
+                                    <li class="nav__item">
+                                        <a href="./blog.html" class="nav__link scroll">News Feed</a>
+                                    </li>
+
+                                    <li class="nav__item">
+                                        <a href="./php/contactForm.php" class="nav__link scroll">Contact</a>
+                                    </li>
+
+                                    <li class="nav__item">
+                                        <a href="./about.html" class="nav__link scroll">About</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <!--ICONS-->
+
+                            <div class="nav__icons">
+
+                                <!--Admin icon from font awesome-->
+                                <a href=".//productUploads/adminPage.html" class="icon__item">
+                                    <i class="fas fa-user-lock"></i>
+                                </a>
+                                <!--Shopping cart icon from font awesome-->
+                                <a href="./productUp/index.php" class="icon__item">
+                                    <i class="fas fa-shopping-cart"></i>
+
+                                </a>
+
+                            </div>
+                        </nav>
+            </div>
         </div>
-    </div>
     </header>
- <!--header end-->
-   <!--Main Area-->
+    <!--header end-->
+    <!--Main Area-->
 
-<div class="hero">
-    <div class="glide" id="glide_1">
-         <div class="glide__track" data-glide-el="track">
-          <ul class="glide__slides">
-            <li class="glide__slide">
-<div class="hero__center">
-    <div class="hero__left">
-        <span>Make Money</span>
-         <h1>Click Here</h1>
-        <p>Skateboard and Surfboard collections</p>
-        <a href="./productUploads/displayCategory.php" ><button class="hero__btn">Get now!</button></a>
-    </div>
-<div class="hero__right">
-    <div class="hero__img-container">
-        <img src="./images/products/productsBeforeUpload/STSX-2021-21-min.jpg" alt="" class="banner_01">
-    </div>
-</div>
+    <div class="hero">
+        <div class="glide" id="glide_1">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="hero__center">
+                            <div class="hero__left">
+                                <h2>Race 1</h2>
+                <table class="slider_table_results">
+                    <tr>
+                        <th>Position</th>
+                        <th>Horse</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Horse A</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Horse B</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Horse C</td>
+                    </tr>
+                </table>
+                            </div>
+                        </div>
+                    </li>
 
-</div>
-            </li>
+                    <li class="glide__slide">
+                        <div class="hero__center">
+                            <div class="hero__left">
+                                <h2>Race 2</h2>
+                                <table class="slider_table_results">
+                                    <tr>
+                                        <th>Position</th>
+                                        <th>Horse</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Horse D</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Horse E</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Horse F</td>
+                                    </tr>
+                                </table>
+                        </div>
+                        </div>
+                    </li>
 
-            <li class="glide__slide">
-                <div class="hero__center">
-                    <div class="hero__left">
-                        <span>Make your bet</span>
-                        <h1>Click Here </h1>
-                        <p>Skateboard and Surfboard collections</p>
-                        <a href="./productUploads/displayCategory.php" ><button class="hero__btn">Get now!</button></a>
-                    </div>
-                <div class="hero__right">
-                    <div class="hero__img-container">
-                        <img src="./images/products/productsBeforeUpload/jetSurfSTSX.jpeg.png" alt="" class="banner_02">
-                    </div>
-                </div>
-                
-                </div>
-                            </li>
-
-                            <li class="glide__slide">
-                                <div class="hero__center">
-                                    <div class="hero__left">
-                                        <span>Create Your Wave</span>
-                                        <h1>Own the Tide </h1>
-                                        <p>Skateboard and Surfboard collections</p>
-                                        <a href="./productUploads/displayCategory.php" ><button class="hero__btn">Get now!</button></a>
-                                    </div>
-                                <div class="hero__right">
-                                    <div class="hero__img-container">
-                                        <img src="./images/products/productsBeforeUpload/Jetproduct-2.png" alt="" class="banner_03">
-                                    </div>
-                                </div>
-                                
-                                </div>
-                                            </li>
-                                           
-          
-           
-          </ul>
-        </div>
-          <div class="glide__arrows" data-glide-el="controls">
-            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
-
-                <i class="fas fa-arrow-left"></i>
-            </button>
-            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
-
-                <i class="fas fa-arrow-right"></i>
-            </button>
-          </div>
-
-      </div>
-      
-</div>
+                    <li class="glide__slide">
+                        <div class="hero__center">
+                            <div class="hero__left">
+                                <h2>Race 2</h2>
+                <table class="slider_table_results">
+                    <tr>
+                        <th>Position</th>
+                        <th>Horse</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Horse D</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Horse E</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Horse F</td>
+                    </tr>
+                </table>
+                            </div>                          
+                        </div>
+                    </li>
 
 
- 
 
-<!--Main-->
-
-<main id="main">
-<!--Collection-->
-<section class="section collection" id="collection">
-   <div class="container">
-<div class="collection__container">
-    <div class="collection__box">
-        <div class="img__container">
-            <img src="./images/products/productsBeforeUpload/QuadTronSkateBoard.jpg" class="collection_02">
-        </div>
-        <div class="collection__content">
-            <div class="collection__data">
-                <span>Off-Road Collection</span>
-                <h1>Skateboards</h1>
-                <a href="./productUploads/displayCategory.php">SHOP NOW!</a>
+                </ul>
             </div>
-        </div>
-    </div>
-    
-    <div class="collection__box">
-        <div class="img__container">
-            <img src="./images/products/productsBeforeUpload/streetCarverSkateBoard.jpg" class="collection_01">
-        </div>
-        <div class="collection__content">
-            <div class="collection__data">
-                <span>Carver Collection</span>
-                <h1>Skateboards</h1>
-                <a href="./productUploads/displayCategory.php">SHOP NOW!</a>
-            </div>
-        </div>
-    </div>
-</div>
-</div> 
-</section>
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
 
-<!--Latest Products 
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!--Main-->
+
+    <main id="main">
+        <!--Collection-->
+
+
+        <section class="section collection" id="collection">
+            <div class="container">
+                <h1>Horse Racing Results</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Race</th>
+                            <th>Winner</th>
+                            <th>Second Place</th>
+                            <th>Third Place</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Kentucky Derby</td>
+                            <td>Horse A</td>
+                            <td>Horse B</td>
+                            <td>Horse C</td>
+                        </tr>
+                        <tr>
+                            <td>Preakness Stakes</td>
+                            <td>Horse D</td>
+                            <td>Horse E</td>
+                            <td>Horse F</td>
+                        </tr>
+                        <tr>
+                            <td>Belmont Stakes</td>
+                            <td>Horse G</td>
+                            <td>Horse H</td>
+                            <td>Horse I</td>
+                        </tr>
+                        <!-- Add more race results here -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!--Latest Products 
 
 <section class="section latest__products" id="latest">
     <div class="title__container">
@@ -252,7 +290,7 @@
     </div>
 </section>
 -->
-</main>
+    </main>
 
 
     <!--Glide.js-->
@@ -263,9 +301,10 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!--Script-->
-<script src="./js/index.js"></script>
-<script src="./js/slider.js"></script>
-<script src="./js/products.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/products.js"></script>
 
 </body>
+
 </html>

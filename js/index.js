@@ -2,6 +2,8 @@
 Navigation
 */
 
+const { head } = require("lodash");
+
 const navOpen=document.querySelector(".nav__hamburger");
 const navClose=document.querySelector(".close__toggle");
 const menu=document.querySelector(".nav__menu");
@@ -27,5 +29,7 @@ navClose.addEventListener('click', ()=>{
     
 
 
+
 //AOS
 AOS.init();
+

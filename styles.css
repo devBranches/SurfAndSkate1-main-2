@@ -74,6 +74,8 @@ z-index: 12;
 position: fixed;
     
 }
+
+
 .container{
     width: 100%;
     max-width: 120rem;
@@ -584,11 +586,11 @@ Collection Media Query
 
     .collection__container{
 
-        width: 80%;
+        width: 50%;
         margin: 0 auto;
         flex-direction: column;
         height: 65rem;
-
+        float:left;
     }
     .collection__box{
         width: 100%;
@@ -660,3 +662,56 @@ Products (Latest)
     font-size: 1.9rem;
     font-weight: inherit;
 }
+/*table*/
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/*slider results*/
+.hero__center{
+    max-width: 800px;
+    margin: 20px auto;
+}
+.hero__left{
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.slider_table_results {
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
