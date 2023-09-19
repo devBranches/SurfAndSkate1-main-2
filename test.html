@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horse Racing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        #race-button {
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        #race-info {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Horse Racing</h1>
+    </header>
+
+    <h2>Welcome to our Horse Racing Site!</h2>
+    <p>Click the button below to start a race:</p>
+
+    <button id="race-button">Start Race</button>
+    <p id="race-info"></p>
+
+    <script>
+        // JavaScript code for simulating a horse race
+        document.getElementById("race-button").addEventListener("click", function() {
+            const horses = ["Horse A", "Horse B", "Horse C", "Horse D"];
+            const winner = horses[Math.floor(Math.random() * horses.length)];
+            document.getElementById("race-info").textContent = `The winner is: ${winner}!`;
+        });
+    </script>
+</body>
+</html>
